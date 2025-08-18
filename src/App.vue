@@ -1,16 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="nuevo
-  "/>
+  <HelloWorld msg="GHOLA"/>
+ 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
@@ -23,5 +21,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.encabezado {
+  background-color: aqua;
+  color: white;
+padding: 2px;
+text-align: center;
 }
 </style>
