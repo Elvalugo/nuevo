@@ -2,6 +2,7 @@
   <div class="hello">
   
     <h1>{{ msg }}</h1>
+    <h3 class="animate__animated animate__bounce"> Hola Holaa</h3>
     </div>
 
 </template>
