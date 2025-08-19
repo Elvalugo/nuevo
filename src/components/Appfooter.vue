@@ -8,7 +8,7 @@
         data() {
             return {
                 mensajefooter: 'Este es el pie de pagina',
-                tamaño: 16
+                tamañoTexto: 16
             };
         }
         };
