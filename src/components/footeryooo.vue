@@ -1,23 +1,26 @@
 <template>
-    <footer class="footeryooo"> <p> Este es el pie de pagina</p> 
+  
+    <footer class="footerYooo">
+    <p> Este es el pie de pagina</p>
         </footer>
-        </template>
+ </template>
+ 
 
-        <script>
-        export default {
-            name: 'footeryooo',
+<script>
+export default {
+  name: 'footerYooo'
+}
+</script>
 
-        }
-        </script>
 
 <style scoped>
 
-.footeryooo {
-    background-color: #0d3e6e;
-    color: #343a40;
-    padding: 1rem;
+.footerYooo {
+    background-color: aqua;
+    color: white;
+    padding: 2px;
     text-align: center;
-    font-size: 0.9rem;
-    position: fixed;
+    font-size: 20px;
+    font-weight: bold;
 }
 </style>

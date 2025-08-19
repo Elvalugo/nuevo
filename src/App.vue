@@ -1,21 +1,25 @@
 <template>
-  <HelloWorld msg="GHOLA"/>
- 
+<HeaderYooo/>
+<HelloWorld msg="GHOLA"/>
+<footerYooo />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-import footeryooo from './components/footeryooo.vue';
 
+<script>
+import HeaderYooo from './components/HeaderYooo.vue';
+import HelloWorld from './components/HelloWorld.vue'
+import footerYooo from './components/footerYooo.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Footeryooo
+    HeaderYooo,
+    footerYooo
   }
 }
 </script>
+
 
 <style>
 #app {
@@ -24,12 +28,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 9px;
 }
-.encabezado {
-  background-color: aqua;
-  color: white;
-padding: 2px;
-text-align: center;
-}
+
 </style>
