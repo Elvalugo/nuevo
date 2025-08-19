@@ -5,10 +5,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import footeryooo from './components/footeryooo.vue';
+
+
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    Footeryooo
   }
 }
 </script>
